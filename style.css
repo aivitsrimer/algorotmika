@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  margin: 0;
+}
+
+.aside {
+  width: 310px;
+  background-color: #1a142d;
+  padding: 18px 18px 60px;
+  box-sizing: border-box;
+  margin-right: 67px;
+}
+
+.avatar {
+  border: 1px solid white;
+  width: 100%;
+}
+
+.title {
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  margin: 48px 0 16px 0;
+}
+
+.content {
+  width: 467px;
+  font-size: 14px;
+}
+
+.birth {
+  color: white;
+  text-align: center;
+}
+
+.birth b {
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin: 35px 0 10px;
+}
+
+.text {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.list {
+  padding: 0 18px;
+  margin: 0;
+}
+
+.info {
+  color: #ff3232;
+}
+
+.container {
+  display: flex;
+  margin: 60px 20px 87px 67px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.socials {
+  text-align: center;
+  margin-top: 36px;
+}
+
+a:hover {
+  position: relative;
+  bottom: 10px;
+}
+
+.gallery {
+  width: 910px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-item {
+  width: 206px;
+  height: 206px;
+  position: relative;
+}
+
+.gallery-label {
+  display: none;
+
+  background-color: #1a142d;
+  margin: 0;
+  padding: 6px 12px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  width: 100%;
+  box-sizing: border-box;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.gallery-item:hover .gallery-label {
+  display: block;
+}
